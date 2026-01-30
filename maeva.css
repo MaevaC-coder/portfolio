@@ -1,0 +1,143 @@
+body {
+	background-image: url("Images/fond.jpg"); /*fond avec une image*/
+	background-attachment: fixed; /*fixe l'image du fond d'écran*/
+	background-size: cover; /*l'image utilise la totalité de la largeur*/
+	background-position: center; /*image centrée*/
+}
+
+li {
+	list-style-type: none;
+	/* Définit le type de puce à afficher pour chaque élément. */
+}
+
+html {
+	overflow-x : hidden;
+	/* Définit la façon dont le bloc html doit traiter un contenu dont les dimensions dépassent la largeur (x) spécifiées du conteneur.
+	*/
+}
+
+p{
+	font-size:1.2em;
+	font-family: Comic Sans MS;
+	text-align: center;
+}
+
+h3,
+h2,
+h1{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+}
+
+
+}
+
+.SousTitre {
+	font-size: 1.2em;
+	text-shadow: 0px 1px 1px #000;
+	color: #0f1b6b;
+}
+
+.Titre {
+	font-size: 50px;
+	font-weight: normal;
+	color: #100f0f;
+	text-align: center;
+}
+
+.boutonMenu a {
+	background:#5e6cab;
+	display: inline-block; 
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	line-height: 25px;
+	text-decoration: none;
+	font-size: 0.75em;
+	font-family: Calibri;
+	margin-top: -0.20em;
+	margin-left: -0em;
+	padding-left: 10px;
+	padding-top: -5em;
+	padding-right: 10px;
+	position: relative;
+	width: auto;
+	height: 2em;
+    border-right: solid 1px #ffffff;
+}
+
+.boutonMenu a:hover {
+	font-size: 0.85em;
+}
+
+.a_droite{
+	display: block;
+	float: right;
+	width: 380px;
+	height:285px;
+	margin-right: 10px;
+	margin-left: 10px;
+	position: relative;
+}
+
+.a_gauche{
+	display: block;
+	float: left;
+	width: 380px;
+	height: 214px;
+	margin-right: 10px;
+	margin-left: 10px;
+	position: relative;
+}
+
+#barre {
+	background:#ececec;
+	padding: 10px;
+	margin: -0.938em -0.625em -0.625em -0.625em;
+	height: 3em;
+	position: relative;
+}
+
+#Titre {
+	background-image: url("Images/internet.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin:-1em -0.625em -0.625em -0.625em;
+	height: 4.5em;
+	text-align: left;
+	padding-left: 5em;
+	line-height: 100px;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+#logo {
+	display: block;
+	float: right;
+	width: 295px;
+	height:140px;
+	margin-right: 10px;
+	margin-left: 10px;
+	position: relative;
+}
+
+#contenuprincipal {
+	display: block;
+	width: 800px;
+	margin: auto;
+}
+
+#Titre2 {
+	background-image: url("Images/terrainsport.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: bottom;
+	margin:-1em -0.625em -0.625em -0.625em;
+	height: 4.5em;
+	text-align: left;
+	padding-left: 5em;
+	line-height: 100px;
+	font-size: 25px;
+	color: #ffffff;
